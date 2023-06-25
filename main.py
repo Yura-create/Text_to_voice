@@ -6,7 +6,7 @@ en_w_voice = 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_
 en_m_voice = 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0'
 ru_w_voice = 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_RU-RU_IRINA_11.0'
 
-bot = telebot.TeleBot("5700611925:AAGdtwRm0E8crpFX7QW-g1k-rcjc6Wb1D5E")
+bot = telebot.TeleBot("YOUR TOKEN")
 
 
 @bot.message_handler(commands=['start'])
